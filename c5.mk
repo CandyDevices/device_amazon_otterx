@@ -16,6 +16,6 @@
 $(call inherit-product, device/amazon/otter-common/cm.mk)
 $(call inherit-product, device/amazon/otterx/full_otterx.mk)
 
-PRODUCT_NAME := cm_otterx
+PRODUCT_NAME := c5_otterx
 PRODUCT_RELEASE_NAME := KFire
 
