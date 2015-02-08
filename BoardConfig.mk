@@ -20,6 +20,10 @@ DEVICE_FOLDER := device/amazon/otterx
 # Use the non-open-source parts, if they're present
 -include vendor/amazon/otterx/BoardConfigVendor.mk
 
+#force hdpi
+PRODUCT_AAPT_CONFIG := normal hdpi
+PRODUCT_AAPT_PREF_CONFIG := hdpi
+
 # Kernel
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_CMDLINE := mem=512M androidboot.selinux=permissive newbootargs
