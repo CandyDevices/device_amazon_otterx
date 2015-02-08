@@ -34,6 +34,8 @@ TARGET_OTA_ASSERT_DEVICE := otterx
 TARGET_KERNEL_SOURCE := kernel/amazon/otter-common
 TARGET_KERNEL_CONFIG := candy_omap4_defconfig
 TARGET_KERNEL_VARIANT_CONFIG := candy_otterx_defconfig
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8-sm/bin
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
 # Filesystem
 TARGET_RECOVERY_FSTAB = $(DEVICE_FOLDER)/fstab.otterx
