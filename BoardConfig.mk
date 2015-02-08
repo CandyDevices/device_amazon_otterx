@@ -21,8 +21,8 @@ DEVICE_FOLDER := device/amazon/otterx
 -include vendor/amazon/otterx/BoardConfigVendor.mk
 
 #force hdpi
-PRODUCT_AAPT_CONFIG := normal hdpi
-PRODUCT_AAPT_PREF_CONFIG := hdpi
+PRODUCT_AAPT_CONFIG := normal xhdpi
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # Kernel
 BOARD_KERNEL_PAGESIZE := 4096
